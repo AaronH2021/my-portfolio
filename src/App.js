@@ -5,12 +5,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans">
       <nav className="flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <h1 className="text-2xl font-bold">Aaron's Portfolio</h1>
         <div className="space-x-6">
-          <a href="#about" className="hover:text-teal-400">About</a>
-          <a href="#projects" className="hover:text-teal-400">Projects</a>
-          <a href="#skills" className="hover:text-teal-400">Skills</a>
-          <a href="#contact" className="hover:text-teal-400">Contact</a>
         </div>
       </nav>
 
@@ -24,6 +19,9 @@ function App() {
         <p className="text-lg text-gray-300">
           I'm passionate about building beautiful and functional web applications.
           Currently honing my skills in web development and software engineering.
+
+          I've competed in a variety of video games, such as Hearthstone, Smash Bros, and Teamfight Tactics.
+          My greatest accomplishments in video games are hitting Challenger (top 0.04% of players) in Teamfight Tactics and winning a Teamfight Tactics tournament called SoCal Flower Fest with over 50 players.
         </p>
       </section>
 
@@ -46,22 +44,18 @@ function App() {
       <section id="skills" className="mt-24 max-w-4xl mx-auto text-center px-4">
         <h3 className="text-3xl font-semibold mb-6">Skills</h3>
         <div className="flex flex-wrap justify-center gap-6 text-gray-300">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>React</span>
-          <span>Tailwind CSS</span>
-          <span>Node.js</span>
+          <span>Programming Languages: Python, Java, JavaScript, C++, SQL, HTML, CSS, LATEX </span>
+          <span>Project Tools: GitHub, MySQL, MongoDB, Google Cloud, AWS, Firebase, Linux/Unix,Slack, Jira, Putty</span>
+          <span>Libraries/API: ReactJs, ThreeJs, jQuery, Django, OpenCV, TensorFlow, NumPy, Axios, TailwindCSS</span>
         </div>
       </section>
 
       <section id="contact" className="mt-24 max-w-4xl mx-auto text-center px-4 pb-20">
         <h3 className="text-3xl font-semibold mb-6">Contact</h3>
-        <p className="text-gray-400 mb-4">Feel free to reach out to me!</p>
         <div className="flex justify-center gap-6">
-          <a href="https://github.com" target="_blank" className="hover:text-teal-400">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" className="hover:text-teal-400">LinkedIn</a>
-          <a href="mailto:your.email@example.com" className="hover:text-teal-400">Email Me</a>
+          <a href="https://github.com/AaronH2021" target="_blank" className="hover:text-teal-400">GitHub</a>
+          <a href="https://www.linkedin.com/in/aaron-hung/" target="_blank" className="hover:text-teal-400">LinkedIn</a>
+          <a href="mailto:aaronhung50@gmail.com" className="hover:text-teal-400">Email Me</a>
         </div>
       </section>
     </div>
