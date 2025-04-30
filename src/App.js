@@ -14,14 +14,15 @@ function App() {
         <p className="mt-4 text-xl">an aspiring website developer and software engineer!</p>
       </section>
 
-      <section id="about" className="mt-24 max-w-4xl mx-auto text-center px-4">
+      <section id="about" className="mt-24 max-w-4xl mx-auto text-left px-4">
         <h3 className="text-3xl font-semibold mb-4">About Me</h3>
         <p className="text-lg text-gray-300">
           I'm passionate about building beautiful and functional web applications.
           Currently honing my skills in web development and software engineering.
-
+          </p>
+          <p className="text-lg text-gray-300">
           I've competed in a variety of video games, such as Hearthstone, Smash Bros, and Teamfight Tactics.
-          My greatest accomplishments in video games are hitting Challenger (top 0.04% of players) in Teamfight Tactics and winning a Teamfight Tactics tournament called SoCal Flower Fest with over 50 players.
+          My greatest accomplishments in video games are hitting Challenger (top 0.04% of players) in Teamfight Tactics and winning a Teamfight Tactics tournament called SoCal Flower Fest with over 40 players.
         </p>
       </section>
 
@@ -29,14 +30,32 @@ function App() {
         <h3 className="text-3xl font-semibold text-center mb-12">Projects</h3>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
-            <h4 className="text-2xl font-bold mb-2">Project One</h4>
-            <p className="text-gray-400 mb-4">A brief description of Project One. Built with HTML, CSS, and JavaScript.</p>
-            <a href="#" className="text-teal-400 hover:underline">View Project</a>
+            <h4 className="text-2xl font-bold mb-2">Portfolio Website</h4>
+            <p className="text-gray-400 mb-4">This website was built with HTML, CSS, React and JavaScript.</p>
+            <a href="https://github.com/AaronH2021/my-portfolio" target="_blank" rel="noopener noreferrer">
+              <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
+                GitHub
+              </button>
+            </a>
+            <a href="https://aaronh2021.github.io/financial-data-app/" target="_blank" rel="noopener noreferrer">
+              <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
+                View Project
+              </button>
+            </a>
           </div>
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
-            <h4 className="text-2xl font-bold mb-2">Project Two</h4>
-            <p className="text-gray-400 mb-4">A brief description of Project Two. Built with React and Tailwind CSS.</p>
-            <a href="#" className="text-teal-400 hover:underline">View Project</a>
+            <h4 className="text-2xl font-bold mb-2">Financial Data Filter App</h4>
+            <p className="text-gray-400 mb-4">Used React to fetch, filter, and display data from the Financial Modeling Prep API.</p>
+            <a href="https://github.com/AaronH2021/financial-data-app?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">
+              <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
+                GitHub
+              </button>
+            </a>
+            <a href="https://aaronh2021.github.io/financial-data-app/" target="_blank" rel="noopener noreferrer">
+              <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
+                View Project
+              </button>
+            </a>
           </div>
         </div>
       </section>
@@ -52,11 +71,23 @@ function App() {
 
       <section id="contact" className="mt-24 max-w-4xl mx-auto text-center px-4 pb-20">
         <h3 className="text-3xl font-semibold mb-6">Contact</h3>
-        <div className="flex justify-center gap-6">
-          <a href="https://github.com/AaronH2021" target="_blank" className="hover:text-teal-400">GitHub</a>
-          <a href="https://www.linkedin.com/in/aaron-hung/" target="_blank" className="hover:text-teal-400">LinkedIn</a>
-          <a href="mailto:aaronhung50@gmail.com" className="hover:text-teal-400">Email Me</a>
-        </div>
+        <div className="flex flex-wrap justify-center gap-4">
+  <a href="https://github.com/AaronH2021" target="_blank" rel="noopener noreferrer">
+    <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
+      GitHub
+    </button>
+  </a>
+  <a href="https://www.linkedin.com/in/aaron-hung/" target="_blank" rel="noopener noreferrer">
+    <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
+      LinkedIn
+    </button>
+  </a>
+  <a href="mailto:aaronhung50@gmail.com">
+    <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
+      Email Me
+    </button>
+  </a>
+</div>
       </section>
     </div>
   );
