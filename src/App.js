@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function App() {
   return (
@@ -72,20 +73,30 @@ function App() {
       <section id="contact" className="mt-24 max-w-4xl mx-auto text-center px-4 pb-20">
         <h3 className="text-3xl font-semibold mb-6">Contact</h3>
         <div className="flex flex-wrap justify-center gap-4">
-  <a href="https://github.com/AaronH2021" target="_blank" rel="noopener noreferrer">
-    <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
-      GitHub
-    </button>
+  <a
+    href="https://github.com/AaronH2021"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all inline-flex items-center gap-2"
+  >
+    <FaGithub size={20} />
+    GitHub
   </a>
-  <a href="https://www.linkedin.com/in/aaron-hung/" target="_blank" rel="noopener noreferrer">
-    <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
-      LinkedIn
-    </button>
+  <a
+    href="https://www.linkedin.com/in/aaron-hung/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all inline-flex items-center gap-2"
+  >
+    <FaLinkedin size={20} />
+    LinkedIn
   </a>
-  <a href="mailto:aaronhung50@gmail.com">
-    <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
-      Email Me
-    </button>
+  <a
+    href="mailto:aaronhung50@gmail.com"
+    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all inline-flex items-center gap-2"
+  >
+    <FaEnvelope size={20} />
+    Email Me
   </a>
 </div>
       </section>
