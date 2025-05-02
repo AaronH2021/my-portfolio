@@ -38,10 +38,6 @@ function App() {
                 GitHub
               </button>
             </a>
-            <a href="https://aaronh2021.github.io/financial-data-app/" target="_blank" rel="noopener noreferrer">
-              <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all">
-                View Project
-              </button>
             </a>
           </div>
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
