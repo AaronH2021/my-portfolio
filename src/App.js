@@ -39,6 +39,7 @@ function App() {
               </button>
             </a>
             </a>
+            </div>
           </div>
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
             <h4 className="text-2xl font-bold mb-2">Financial Data Filter App</h4>
