@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 function App() {
   return (
@@ -74,6 +74,15 @@ function App() {
     rel="noopener noreferrer"
     className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all inline-flex items-center gap-2"
   >
+  <a
+    href="https://drive.google.com/file/d/1GmvrmCqJlEbWov3fx8tGB1R8fAA33Rni/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all inline-flex items-center gap-2"
+    >
+    <FaFileAlt size={20} />
+    Resume
+    </a>
     <FaGithub size={20} />
     GitHub
   </a>
