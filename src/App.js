@@ -69,12 +69,6 @@ function App() {
         <h3 className="text-3xl font-semibold mb-6">Contact</h3>
         <div className="flex flex-wrap justify-center gap-4">
   <a
-    href="https://github.com/AaronH2021"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all inline-flex items-center gap-2"
-  >
-  <a
     href="https://drive.google.com/file/d/1GmvrmCqJlEbWov3fx8tGB1R8fAA33Rni/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
@@ -83,6 +77,12 @@ function App() {
     <FaFileAlt size={20} />
     Resume
     </a>
+  <a
+    href="https://github.com/AaronH2021"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition-all inline-flex items-center gap-2"
+  >
     <FaGithub size={20} />
     GitHub
   </a>
