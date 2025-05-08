@@ -39,7 +39,6 @@ function App() {
               </button>
             </a>
             </div>
-          </div>
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
             <h4 className="text-2xl font-bold mb-2">Financial Data Filter App</h4>
             <p className="text-gray-400 mb-4">Used React to fetch, filter, and display data from the Financial Modeling Prep API.</p>
